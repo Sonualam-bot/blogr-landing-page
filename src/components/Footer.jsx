@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex flex-row justify-evenly items-start text-[--white] bg-[--very-dark-black-blue] w-full h-[550px] p-[50px]  font-Overpass rounded-tr-[100px] ">
+    <div className="flex md:flex-row sm:flex-col justify-evenly md:items-start sm:items-center sm:py-[70px] text-[--white] bg-[--very-dark-black-blue] w-full md:h-[550px] p-[50px]  font-Overpass rounded-tr-[100px] sm:gap-[50px] ">
       <div>
         <h1 className="text-5xl font-bold ">Blogr</h1>
       </div>

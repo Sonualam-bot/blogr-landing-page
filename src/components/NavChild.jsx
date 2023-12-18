@@ -1,6 +1,6 @@
 function NavChild() {
   return (
-    <div className="w-[180px] p-6 flex flex-col items-start justify-around gap-5 bg-[--white]  absolute rounded-md top-[25%] left-[40%] ">
+    <div className="md:w-[180px] sm:w-[70vw] sm:bg-[--grayish-blue] p-6 flex flex-col md:items-start sm:items-center justify-around gap-5 bg-[--white]  md:absolute rounded-md top-[35%] md:left-[40%] sm:left-[0%] ">
       <div className="text-[--very-dark-grayish-blue] hover:text-[--very-dark-gray-blue]">
         <p>Contact</p>
       </div>

@@ -1,16 +1,24 @@
 import laptop from "../images/illustration-laptop-desktop.svg";
+import laptopMobile from "../images/illustration-laptop-mobile.svg";
 
 function Midsection3() {
   return (
-    <div className="flex  w-full items-center justify-start gap-[350px] mt-24  ">
-      <div className="w-[50%] h-[1040px] pt-28    -ml-[360px] ">
+    <div className="flex md:flex-row sm:flex-col  w-full items-center justify-start md:gap-[350px] md:mt-24 sm:gap-[80px]  ">
+      <div className="w-[50%] h-[1040px] pt-28    -ml-[360px] md:block sm:hidden ">
         <img
           className="w-full object-cover scale-125 ml-[190px]  "
           src={laptop}
           alt="/"
         />
       </div>
-      <div className="flex w-[40%] flex-col items-center justify-around gap-24 mb-44 ">
+      <div className="w-[50%] md:h-[1040px] pt-28    -ml-[360px] md:hidden sm:block ">
+        <img
+          className="w-full object-cover scale-125 ml-[190px]  "
+          src={laptopMobile}
+          alt="/"
+        />
+      </div>
+      <div className="flex sm:w-[80%] sm:text-center md:w-[40%] flex-col items-center justify-around gap-24 mb-44 ">
         <div className="flex flex-col gap-6">
           <h2 className="text-3xl text-[--very-dark-blue] font-semibold ">
             Free, open, simple

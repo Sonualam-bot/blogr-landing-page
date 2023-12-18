@@ -3,18 +3,18 @@ import circles from "../images/bg-pattern-circles.svg";
 
 function MidSection2() {
   return (
-    <div className="w-full h-[400px]  flex flex-row items-end justify-between  bg-[--very-dark-gray-blue] rounded-tr-[90px] rounded-bl-[90px]  relative ">
-      <div className=" w-[800px] h-[400px] overflow-hidden  ">
+    <div className="w-full md:h-[400px] sm:mt-[250px] flex md:flex-row sm:flex-col items-end justify-between  bg-[--very-dark-gray-blue] rounded-tr-[90px] rounded-bl-[90px]  relative ">
+      <div className=" w-[800px]  md:h-[400px] overflow-hidden  ">
         <img
-          className=" w-full  object-cover  scale-125 -ml-[107px] pb-[3000px]  "
+          className=" w-full  object-cover  md:scale-125 sm:scale-90 sm:h-full sm:w-[80%] md:-ml-[107px] sm:ml-[250px] md:pt-2  md:pb-[3000px] sm:-pb-[200px]  "
           src={circles}
           alt="/"
         />
       </div>
-      <div className="absolute -bottom-[110px] left-[100px] ">
+      <div className="absolute sm:-top-[200px] md:-bottom-[110px] left-[120px] ">
         <img className="  " src={phones} alt="/" />
       </div>
-      <div className=" flex flex-col justify-center absolute top-[30%] left-[48%] gap-9  ">
+      <div className=" flex flex-col justify-center absolute  sm:m-[50px] sm:text-center sm:items-center top-[30%] md:left-[48%] gap-9 sm:z-10 ">
         <h1 className="text-5xl text-[--white] font-semibold  top-[20px] font-Overpass ">
           State of the Art Infrastructure
         </h1>
