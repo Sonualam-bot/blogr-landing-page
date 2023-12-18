@@ -36,7 +36,7 @@ function Midsection() {
             </p>
           </div>
         </div>
-        <div className="w-[50%] md:h-[1040px] pt-28 sm:pb-6  overflow-hidden ">
+        <div className="w-[50%] md:h-[1040px] pt-28 sm:pb-14  overflow-hidden ">
           <img
             className="w-full object-cover scale-125 ml-[190px] sm:ml-0 sm:hidden md:block "
             src={editorPng}
